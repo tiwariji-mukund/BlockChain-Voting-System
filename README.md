@@ -1,39 +1,37 @@
 # BlockChain-Voting-System
 Build my first decentralized application, or Dapp, on the Ethereum Network.
 
-
+Follow the steps below to download, install, and run this project.
 ## Dependencies
-Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.
+Install these prerequisites to follow along with the tutorial. See free video tutorial or a full explanation of each prerequisite.<ul>
 
-  NPM: https://nodejs.org
+  <li>NPM: https://nodejs.org</li>
+  <li>Truffle: https://github.com/trufflesuite/truffle</li>
+  <li>Ganache: http://truffleframework.com/ganache/</li>
+  <li>Metamask: https://metamask.io/</li></ul>
 
-  Truffle: https://github.com/trufflesuite/truffle
-
-  Ganache: http://truffleframework.com/ganache/
-
-  Metamask: https://metamask.io/
-
+  
 ## Step 1. Clone Project
-    git clone https://github.com/tiwariji-mukund/BlockChain-Voting-System
-    
+    git clone https://github.com/tiwariji-mukund/BlockChain-Voting-System 
 ## Step 2. Install dependencies
     $ cd election
     $ npm install
     
 ## Step 3. Start Ganache
-Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance. See free video tutorial for full explanation.
+Open the Ganache GUI client that you downloaded and installed. This will start your local blockchain instance. 
 
 ## Step 4. Compile & Deploy Election Smart Contract
     $ truffle migrate --reset 
   You must migrate the election smart contract each time your restart ganache.
 
 ## Step 5. Configure Metamask
+Now, follow the following steps<ul>
 
-  Unlock Metamask
+  <li>Unlock Metamask.</li>
   
-  Connect metamask to your local Etherum blockchain provided by Ganache.
+  <li>Connect metamask to your local Etherum blockchain provided by Ganache.</li>
   
-  Import an account provided by ganache.
+  <li>Import an account provided by ganache.</li></ul>
 
 ## Step 6. Run the Front End Application
 
