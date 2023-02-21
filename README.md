@@ -37,3 +37,5 @@ Now, follow the following steps<ul>
 
     $ npm run dev 
 Visit this URL in your browser: http://localhost:3000
+## License
+This project is licensed under <a href="https://github.com/tiwariji-mukund/BlockChain-Voting-System/blob/main/LICENSE">MIT License</a> 2018 Atharva Ingle
